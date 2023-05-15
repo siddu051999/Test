@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <externalId>false</externalId>
+    <label>State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+                <label>Karnataka</label>
+            </value>
+            <value>
+                <fullName>Kabool</fullName>
+                <default>false</default>
+                <label>Kabool</label>
+            </value>
+            <value>
+                <fullName>Sydney</fullName>
+                <default>false</default>
+                <label>Sydney</label>
+            </value>
+            <value>
+                <fullName>perth</fullName>
+                <default>false</default>
+                <label>perth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
